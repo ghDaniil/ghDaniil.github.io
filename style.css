@@ -1,3 +1,22 @@
-body{
+#banner{
     background-image: url(img/background.jpg);
+}
+#in{
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+#foot{
+    text-align: center;
+}
+#h1foot{
+    color: white;
+}
+#pfoot{
+    color: red;
+}
+#inp{
+    background-color: red;
+    color: white;
 }
