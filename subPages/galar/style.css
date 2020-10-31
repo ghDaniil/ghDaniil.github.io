@@ -11,7 +11,7 @@ footer{
 #foot{
     text-align: center;
     padding: 2rem;
-    padding-top: 4rem;
+    padding-top: 2.5rem;
 }
 #h1foot{
     color: lightseagreen;
@@ -39,9 +39,6 @@ body{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-header{
-    margin: 20px;
-}
 #banner{
     margin: 12px;
 }
@@ -67,4 +64,15 @@ li{
 }
 #fin{
     margin-left: 40%;
+}
+
+#foot{
+    margin-top: 1em;
+}
+a{
+    background-image: url(img/logo.png);
+}
+#logo{
+    height: 2.7em;
+    width: 2.7em;
 }
