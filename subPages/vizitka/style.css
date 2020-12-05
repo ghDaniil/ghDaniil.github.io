@@ -1,0 +1,70 @@
+#costil{
+
+    background-image: url(img/background.jpg);
+}
+#in{
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+#foot{
+    text-align: center;
+    padding: 2rem;
+    padding-top: 2.5rem;
+}
+#h1foot{
+    color: lightseagreen;
+}
+#pfoot{
+    color: red;
+}
+#inp{
+    background-color: red;
+    color: white;
+}
+a{
+    color: black;
+}
+#downfoot{
+    color: white;
+    margin-left: 36rem;
+    margin-right: 36rem;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+#exampleInputEmail1{
+    width: 30%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+header{
+    margin: 20px;
+}
+#banner{
+    margin: 12px;
+}
+#info{
+    margin: 6rem;
+}
+#row2{
+    margin-top: 2rem;
+}
+i{
+    margin-right: 1.5rem;
+}
+#banh1{
+    margin-top: 6rem;
+}
+li{
+    margin-right: 2rem;
+}
+#fobn{
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    height: 38px;
+}
+#fin{
+    margin-left: 40%;
+}

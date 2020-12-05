@@ -1,70 +1,87 @@
-#costil{
-
-    background-image: url(img/background.jpg);
-}
-#in{
-    text-align: center;
-}
-footer{
-    background-color: black;
-}
-#foot{
-    text-align: center;
-    padding: 2rem;
-    padding-top: 2.5rem;
-}
-#h1foot{
-    color: lightseagreen;
-}
-#pfoot{
-    color: red;
-}
-#inp{
-    background-color: red;
-    color: white;
-}
-a{
-    color: black;
-}
-#downfoot{
-    color: white;
-    margin-left: 36rem;
-    margin-right: 36rem;
-}
-body{
-    font-family: 'Oswald', sans-serif;
-}
-#exampleInputEmail1{
-    width: 30%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
 header{
-    margin: 20px;
-}
-#banner{
-    margin: 12px;
-}
-#info{
-    margin: 6rem;
-}
-#row2{
-    margin-top: 2rem;
-}
-i{
-    margin-right: 1.5rem;
-}
-#banh1{
-    margin-top: 6rem;
+    background-color: lightgrey;
+    padding: 1rem;
 }
 li{
-    margin-right: 2rem;
+    margin-left: 4rem;
+    color: white;
+    padding-top:0.5rem ;
 }
-#fobn{
-    margin-top: 2rem;
-    margin-left: 0.5rem;
-    height: 38px;
+#ponel{
+    background-color: darkred;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
-#fin{
-    margin-left: 40%;
+#me{
+    padding-top: 10rem;
+    height: 30rem;
 }
+#metext{
+    height: 138px;
+    background-color: darkgray;
+}
+#about_me{
+    background-image: url("subPages/vizitka/subPages/galar/img/backgroundtest6-1.jpg");
+}
+#meo{
+    border-radius: 1rem;
+    margin-right: 6rem;
+    padding-top: 1rem;
+    margin-left: 8rem;
+    padding-bottom: 1rem;
+    background-image: url("subPages/vizitka/subPages/galar/img/bg.jpg");
+}
+.imconcar{
+    height: 2rem;
+    width: 2rem;
+}
+.imcar{
+    height: 10.5rem;
+    width: 20.5rem;
+    padding-left: 2rem;
+}
+.pcard{
+    padding-left: 2rem;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
