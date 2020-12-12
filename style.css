@@ -1,5 +1,5 @@
 header{
-    background-color: lightgrey;
+    background:rgba(211,211,211,0.8);
     padding: 1rem;
 }
 li{
@@ -7,8 +7,13 @@ li{
     color: white;
     padding-top:0.5rem ;
 }
+.card{
+    background-color: #808080 !important;
+}
+
 #ponel{
-    background-color: darkred;
+    border-radius: 10px;
+    background-color: #26414A;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -17,7 +22,8 @@ li{
     height: 30rem;
 }
 #metext{
-    height: 138px;
+    width: 555px;
+    height: 160px;
     background-color: darkgray;
 }
 #about_me{
@@ -29,19 +35,59 @@ li{
     padding-top: 1rem;
     margin-left: 8rem;
     padding-bottom: 1rem;
-    background-image: url("subPages/vizitka/subPages/galar/img/bg.jpg");
+    background:rgba(72, 131, 132, 0.8);
 }
 .imconcar{
-    height: 2rem;
-    width: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
 }
 .imcar{
     height: 10.5rem;
     width: 20.5rem;
-    padding-left: 2rem;
+    padding-left: 1.9rem;
 }
 .pcard{
-    padding-left: 2rem;
+    padding-left: 1.9rem;
+    width: 21rem;
+}
+footer{
+    padding-top: 5rem;
+    background-color: black;
+
+}
+form{
+    height: 12rem;
+    width: 15rem;
+    background-color: lightgray;
+    margin-left: 5rem;
+}
+.form-control{
+    margin-left: 2rem !important;
+    margin: 0.3rem !important;
+    width: 14rem !important;
+}
+#fotbut{
+    margin-left: 2rem;
+    height: 32px;
+}
+#iputs{
+    padding-top:10px ;
+}
+#contactme{
+    width: 20rem ;
+    height: 4.5rem ;
+    padding-bottom: 0.5rem;
+    margin-left: 76.2%;
+    margin-top: 3rem;
+    background-color: gray;
+}
+#conta{
+    padding-top: 1rem;
+    margin: 1rem;
+}
+#info{
+    padding-top: 2rem ;
+    padding-bottom: 2rem ;
 }
 
 
